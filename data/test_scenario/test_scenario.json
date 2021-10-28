@@ -1,0 +1,33 @@
+{
+  "context": "\"agent\": \"robot_agent\", \"objects\": [], \"persons\": [{'birth_name': ['Joseph Francis Tribbiani Junior'], 'nickname': ['Joey'], 'occupation': ['data entry clerk', 'tour guide', 'actor', 'waitperson', 'television actor', 'model'], 'sex_or_gender': ['male'], 'given_name': ['Joseph', 'Francis'], 'unmarried_partner': ['Ursula Buffay'], 'country_of_citizenship': ['United States of America']}], \"speaker\": {'occupation': ['manager'], 'sex_or_gender': ['male'], 'work_location': ['Central Perk'], 'employer': ['Central Perk'], 'given_name': ['Gunther']}",
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "ruler": {
+    "end": 52855,
+    "start": 52846,
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "container_id": "test_scenario",
+    "@type": "TemporalRuler",
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "id": "test_scenario",
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "@type": "Scenario"
+}
