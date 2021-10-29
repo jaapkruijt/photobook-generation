@@ -1,12 +1,10 @@
 {
-  "context": "\"agent\": \"robot_agent\", \"objects\": [], \"persons\": [{'birth_name': ['Joseph Francis Tribbiani Junior'], 'nickname': ['Joey'], 'occupation': ['data entry clerk', 'tour guide', 'actor', 'waitperson', 'television actor', 'model'], 'sex_or_gender': ['male'], 'given_name': ['Joseph', 'Francis'], 'unmarried_partner': ['Ursula Buffay'], 'country_of_citizenship': ['United States of America']}], \"speaker\": {'occupation': ['manager'], 'sex_or_gender': ['male'], 'work_location': ['Central Perk'], 'employer': ['Central Perk'], 'given_name': ['Gunther']}",
-  "signals": {
-    "image": "./image.json",
-    "text": "./text.json"
-  },
+  "@type": "Scenario",
   "ruler": {
-    "end": 52855,
-    "start": 52846,
+    "@type": "TemporalRuler",
+    "container_id": "test_scenario",
+    "end": 759348,
+    "start": 759339,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -17,17 +15,101 @@
         "@type": "@id"
       }
     },
-    "container_id": "test_scenario",
-    "@type": "TemporalRuler",
     "_py_type": "emissor.representation.container-TemporalRuler"
   },
   "id": "test_scenario",
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "context": {
+    "agent": "robot_agent",
+    "@type": "PhotobookContext",
+    "persons": [
+      {
+        "name": [
+          "Judy"
+        ],
+        "religion": [
+          "Judaism"
+        ],
+        "child": [
+          "Monica Geller",
+          "Ross Geller"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "family_name": [
+          "Geller"
+        ],
+        "given_name": [
+          "Judy"
+        ],
+        "spouse": [
+          "Jack Geller"
+        ]
+      },
+      {
+        "father": [
+          "Frank Buffay, Sr"
+        ],
+        "sibling": [
+          "Ursula Buffay",
+          "Phoebe Buffay"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "given_name": [
+          "Frank"
+        ]
+      }
+    ],
+    "speaker": {
+      "birth_name": [
+        "Ben Geller-Willick-Bunch"
+      ],
+      "name": [
+        "Ben Geller-Willick-Bunch"
+      ],
+      "mother": [
+        "Carol Willick"
+      ],
+      "given_name": [
+        "Ben"
+      ],
+      "father": [
+        "Ross Geller"
+      ],
+      "sex_or_gender": [
+        "male"
+      ],
+      "family_name": [
+        "Willick",
+        "Bunch",
+        "Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "objects": [],
+    "_py_type": "create_context-PhotobookContext"
+  },
   "@context": {
     "Scenario": "https://emissor.org#Scenario",
     "id": "@id",
     "context": "https://emissor.org#context",
     "signals": "https://emissor.org#signals",
     "ruler": "https://emissor.org#ruler"
-  },
-  "@type": "Scenario"
+  }
 }

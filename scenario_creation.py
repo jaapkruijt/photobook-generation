@@ -11,7 +11,7 @@ def create_sequence(entity_list, entity_dict):
     context = create_context(entity_list, entity_dict, speaker, speaker_info)
 
     ### The name of your scenario
-    scenarioid = "test_scenario"
+    scenarioid = "test_scenario_2"
 
     ### Specify the path to an existing data folder where your scenario is created and saved as a subfolder
     scenario_path = "./data"

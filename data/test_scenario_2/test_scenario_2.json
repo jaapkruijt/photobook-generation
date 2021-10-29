@@ -1,0 +1,129 @@
+{
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "id": "test_scenario_2",
+  "context": {
+    "agent": "robot_agent",
+    "persons": [
+      {
+        "religion": [
+          "Judaism"
+        ],
+        "spouse": [
+          "Rachel Greene",
+          "Carol Willick",
+          "Emily Waltham"
+        ],
+        "sibling": [
+          "Monica Geller"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "unmarried_partner": [
+          "Elizabeth Stevens",
+          "Janice Litman Goralnik",
+          "Jill Green"
+        ],
+        "child": [
+          "Ben Geller",
+          "Emma Geller Green"
+        ],
+        "family_name": [
+          "Geller"
+        ],
+        "given_name": [
+          "Ross"
+        ],
+        "mother": [
+          "Judy Geller"
+        ],
+        "occupation": [
+          "paleontologist"
+        ],
+        "father": [
+          "Jack Geller"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      },
+      {
+        "sex_or_gender": [
+          "male"
+        ],
+        "unmarried_partner": [
+          "Rachel Greene"
+        ],
+        "child": [
+          "Elizabeth Stevens"
+        ],
+        "given_name": [
+          "Paul"
+        ]
+      }
+    ],
+    "speaker": {
+      "name": [
+        "Judy"
+      ],
+      "religion": [
+        "Judaism"
+      ],
+      "child": [
+        "Monica Geller",
+        "Ross Geller"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "family_name": [
+        "Geller"
+      ],
+      "given_name": [
+        "Judy"
+      ],
+      "spouse": [
+        "Jack Geller"
+      ]
+    },
+    "@type": "PhotobookContext",
+    "objects": [],
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "_py_type": "create_context-PhotobookContext"
+  },
+  "@type": "Scenario",
+  "ruler": {
+    "container_id": "test_scenario_2",
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "@type": "TemporalRuler",
+    "end": 952941,
+    "start": 952932,
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  }
+}
