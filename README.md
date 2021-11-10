@@ -18,7 +18,10 @@ You will also need the following packages:
 * `os`
 
 ## Running the code
-The main code to run for creating a scenario is in `scenario_creation.py`. You will need to specify the name of a folder where the scenario is stored, inside 'data'. Create the folder and put the name as a variable when running `create_sequence`. 
+The main code to run for creating a scenario is in `scenario_creation.py`. 
+You will need to specify the name of a folder where the scenario is stored, 
+inside 'data'. Create the folder and put the name as a variable when running 
+`create_sequence`. You can also specify the number of pictures in a scenario (defaults to 10).
 
 ## Input triples
 The information that serves as the input for the scenarios is triples from the television show *Friends* extracted from [WikiData](https://www.wikidata.org/) using the [Wikidata Query Service](https://query.wikidata.org/). Afterwards it was formatted so that it could be turned into a dictionary using the code in `read_triples.py`. More triples and new fake entities were also added. When adding new entities or new triples for an entity, be sure to adhere to the formatting structure, otherwise the triples will be read wrong and the dictionary output will be incorrect. 
