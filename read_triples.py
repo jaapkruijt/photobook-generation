@@ -22,6 +22,12 @@ def parse_friends_to_dict():
         entities[subj] = triples
     return entities
 
+def create_list_and_dicts():
+    entities = parse_friends_to_dict()
+    entlist = []
+    for key in entities:
+        entlist.append(key)
+    return entities, entlist
 
 
 if __name__ == "__main__":

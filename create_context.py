@@ -2,9 +2,9 @@ from read_triples import parse_friends_to_dict
 from random import randint, sample
 from emissor.representation.scenario import ScenarioContext
 from emissor.representation.ldschema import emissor_dataclass
-import json
 
 from typing import List
+
 
 def select_speaker(entity_list, entity_dict):
     index = randint(0,len(entity_list)-1)
@@ -12,10 +12,13 @@ def select_speaker(entity_list, entity_dict):
     speaker_info = entity_dict[speaker]
     return speaker, speaker_info
 
+
 def select_persons(entity_list, speaker, number):
-    entity_list.remove(speaker)
+    if speaker in entity_list:
+        entity_list.remove(speaker)
     persons = sample(entity_list, number)
     return persons
+
 
 @emissor_dataclass
 class PhotobookContext(ScenarioContext):
@@ -37,6 +40,7 @@ def create_context(entity_list, entity_dict, speaker, speaker_info):
     agent = 'robot_agent'
     scenario_context = PhotobookContext(agent, [], persons_info, speaker_info)
     return scenario_context
+
 
 if __name__ == "__main__":
     entities = parse_friends_to_dict()

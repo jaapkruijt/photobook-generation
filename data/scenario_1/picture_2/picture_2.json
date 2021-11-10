@@ -1,0 +1,134 @@
+{
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "context": {
+    "persons": [
+      {
+        "name": [
+          "Richard"
+        ],
+        "full_name": [
+          "unmarried_partner ",
+          "Monica Geller",
+          "Richard Burke"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "family_name": [
+          "Burke"
+        ],
+        "occupation": [
+          "ophthalmologist"
+        ]
+      }
+    ],
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "speaker": {
+      "name": [
+        "Rachel"
+      ],
+      "full_name": [
+        "Rachel Green"
+      ],
+      "nickname": [
+        "Rach"
+      ],
+      "occupation": [
+        "waiter",
+        "executive"
+      ],
+      "mother": [
+        "Sandra Green"
+      ],
+      "father": [
+        "Leonard Green"
+      ],
+      "unmarried_partner": [
+        "Ross Geller",
+        "Paul Stevens"
+      ],
+      "spouse": [
+        "Ross Geller"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "sibling": [
+        "Amy Green",
+        "Jill Green"
+      ],
+      "work_location": [
+        "Central Perk"
+      ],
+      "colleague": [
+        "Nora Johnson",
+        "Joey Tribbiani",
+        "Gunther"
+      ],
+      "employer": [
+        "Bloomingdale's",
+        "Ralph Lauren Corporation",
+        "Central Perk"
+      ],
+      "family_name": [
+        "Green"
+      ],
+      "child": [
+        "Emma Geller-Green"
+      ],
+      "flatmate": [
+        "Monica Geller",
+        "Joey Tribbiani"
+      ],
+      "friend": [
+        "Monica Geller",
+        "Joey Tribbiani",
+        "Phoebe Buffay",
+        "Chandler Bing"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "agent": "robot_agent",
+    "objects": [],
+    "@type": "PhotobookContext",
+    "_py_type": "create_context-PhotobookContext"
+  },
+  "ruler": {
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "container_id": "picture_2",
+    "start": 2,
+    "@type": "TemporalRuler",
+    "end": 2,
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_2",
+  "@type": "Scenario"
+}

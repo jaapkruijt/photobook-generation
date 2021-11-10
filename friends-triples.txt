@@ -1,16 +1,19 @@
-Paul sex_or_gender "male";
-unmarried_partner "Rachel Greene";
-child "Elizabeth Stevens";
-given_name "Paul".
+Paul name "Paul";
+full_name "Paul Stevens";
+sex_or_gender "male";
+unmarried_partner "Rachel Green";
+child "Elizabeth Stevens".
 
-Susan sexual_orientation "homosexuality";
+Susan name "Susan";
+full_name "Susan Bunch";
+sexual_orientation "homosexuality";
 spouse "Carol Willick";
+colleague "Carol Hay";
 sex_or_gender "female";
-family_name "Bunch";
-given_name "Susan".
+family_name "Bunch".
 
-Emma birth_name "Emma Sandra Geller Green";
-name "Emma Green Geller", "Emma Green", "Emma Geller Green",
+Emma name "Emma";
+full_name "Emma Sandra Geller Green", "Emma Green Geller", "Emma Green", "Emma Geller Green",
 "Emma Geller", "Emma G Green";
 nickname "Em";
 relative "Sandra Green", "Leonard Green", "Chandler Bing", "Monica Geller", "Amy Green",
@@ -18,154 +21,199 @@ relative "Sandra Green", "Leonard Green", "Chandler Bing", "Monica Geller", "Amy
 father "Ross Geller";
 godparent "Chandler Bing", "Monica Geller";
 sex_or_gender "female";
-mother "Rachel Greene";
+mother "Rachel Green";
 given_name "Emma", "Sandra".
 
+Emma name "Emma";
+full_name "Emma Waltham";
+sibling "Emily Waltham";
+sex_or_gender "female".
+
 Jack name "Jack";
+full_name "Jack Geller";
 religion "Judaism";
 child "Ross Geller", "Monica Geller";
 sex_or_gender "male";
 family_name "Geller";
-spouse "Judy Geller";
-given_name "Jack".
+spouse "Judy Geller".
 
-Gunther occupation "manager";
+Jack name "Jack";
+full_name "Jack Barner";
+occupation "manager";
+employee "Chandler Bing";
+sex_or_gender "male".
+
+Gunther name "Gunther"
+occupation "manager";
 sex_or_gender "male";
 work_location "Central Perk";
-employer "Central Perk";
-given_name "Gunther".
+colleague "Rachel Green", "Joey Tribbiani";
+employer "Central Perk".
 
 Judy name "Judy";
+full_name "Judy Geller";
 religion "Judaism";
 child "Ross Geller", "Monica Geller";
 sex_or_gender "female";
 family_name "Geller";
-given_name "Judy";
 spouse "Jack Geller".
 
-Estelle given_name "Estelle";
+Estelle name "Estelle";
+full_name "Estelle Leonard";
 sex_or_gender "female";
 family_name "Leonard";
+spouse "Mike Turner";
+client "Joey Tribbiani"
 occupation "talent agent".
 
-Mike name "Michael Hannigan";
+Mike name "Mike";
+full_name "Michael Hannigan";
 spouse "Phoebe Buffay";
 sex_or_gender "male";
-given_name "Mike";
 family_name "Hannigan".
 
-Emily spouse "Ross Geller";
+Mike name "Mike";
+full_name "Mike Turner";
+spouse "Estelle Leonard";
+sex_or_gender "male".
+
+Emily name "Emily";
+full_name "Emily Waltham"
+spouse "Ross Geller";
+sibling "Emma Waltham";
 sex_or_gender "female";
-given_name "Emily";
 country_of_citizenship "United Kingdom".
 
-Janice name "Janice", "Janice Hosenstein", "Janice";
+Janice name "Janice";
+full_name "Janice Litman Goralnik";
 unmarried_partner "Ross Geller", "Chandler Bing";
-sex_or_gender "female";
-given_name "Janice".
+sex_or_gender "female".
 
-Frank father "Frank Buffay, Sr";
+Frank name "Frank";
+full_name "Frank Buffay, Jr"
+father "Frank Buffay, Sr";
 sibling "Phoebe Buffay", "Ursula Buffay";
-sex_or_gender "male";
-given_name "Frank".
+sex_or_gender "male".
 
-Richard unmarried_partner "Monica Geller";
+Frank name "Frank";
+full_name "Frank Liotta";
+spouse "Eddie";
+sex_or_gender "male".
+
+Richard name "Richard";
+full_name "Richard Burke"
+unmarried_partner "Monica Geller";
 sex_or_gender "male";
 family_name "Burke";
-given_name "Richard";
 occupation "ophthalmologist".
 
-Ursula name "Ursula Pamela Buffay";
+Ursula name "Ursula";
+full_name "Ursula Pamela Buffay";
 father "Frank Buffay, Sr";
-occupation "waitperson", "pornographic actor";
+occupation "waiter", "pornographic actor";
 unmarried_partner "Joey Tribbiani";
 sibling "Phoebe Buffay", "Frank Buffay, Jr";
 sex_or_gender "female";
 given_name "Pamela", "Ursula";
 country_of_citizenship "United States of America".
 
-Ben birth_name "Ben Geller-Willick-Bunch";
-name "Ben Geller-Willick-Bunch";
+Ben name "Ben";
+full_name "Ben Geller-Willick-Bunch";
 mother "Carol Willick";
-given_name "Ben";
 father "Ross Geller";
 sex_or_gender "male";
 family_name "Willick", "Geller", "Bunch";
 country_of_citizenship "United States of America".
 
-Elizabeth unmarried_partner "Ross Geller";
+Elizabeth name "Elizabeth";
+full_name "Elizabeth Stevens";
+unmarried_partner "Ross Geller";
 sex_or_gender "female";
-given_name "Elizabeth";
 family_name "Stevens";
 father "Paul Stevens".
 
-Russ sex_or_gender "male";
-unmarried_partner "Rachel Greene";
-given_name "Russ".
+Russ name "Russ";
+sex_or_gender "male";
+unmarried_partner "Rachel Greene".
 
-Nora name "Mrs Bing";
+Nora name "Nora";
+full_name "Nora Tyler Bing", "Mrs Bing";
 child "Chandler Bing";
 sex_or_gender "female";
 spouse "Charles Bing";
-occupation "writer";
-given_name "Nora".
+occupation "writer".
 
-Jill mother "Sandra Green";
+Nora name "Nora";
+full_name "Nora Johnson";
+colleague "Rachel Green";
+sex_or_gender "female".
+
+Jill name "Jill";
+full_name "Jill Green";
+mother "Sandra Green";
 father "Leonard Green";
 unmarried_partner "Ross Geller";
 sex_or_gender "female";
-sibling "Rachel Greene", "Amy Green";
-family_name "Green";
-given_name "Jill".
-
-Amy mother "Sandra Green";
-father "Leonard Green";
-sex_or_gender "female";
-sibling "Rachel Greene", "Jill Green";
-given_name "Amy";
+sibling "Rachel Green", "Amy Green";
 family_name "Green".
 
-Eddie sex_or_gender "male";
-given_name "Eddie".
+Amy name "Amy";
+full_name "Amy Green";
+mother "Sandra Green";
+father "Leonard Green";
+sex_or_gender "female";
+sibling "Rachel Green", "Jill Green";
+family_name "Green".
 
-Charles name "Helena Handbasket", "Chandler's Dad";
+Eddie name "Eddie";
+sex_or_gender "male";
+flatmate "Chandler Bing";
+spouse "Frank Liotta".
+
+Charles name "Charles";
+full_name "Charles Bing"
 pseudonym "Helena Handbasket";
-present_in_work "Friends";
 child "Chandler Bing";
 spouse "Nora Tyler Bing";
 occupation "vedette";
-given_name "Charles";
 family_name "Bing";
 sex_or_gender "transgender female".
 
-Rachel name "Rach";
+Rachel name "Rachel";
+full_name "Rachel Green";
+nickname "Rach";
 occupation "executive", "waiter";
 mother "Sandra Green";
 father "Leonard Green";
-given_name "Rachel";
 unmarried_partner "Ross Geller", "Paul Stevens";
 spouse "Ross Geller";
 sex_or_gender "female";
 sibling "Amy Green", "Jill Green";
 work_location "Central Perk";
+colleague "Gunther", "Joey Tribbiani", "Nora Johnson";
 employer "Central Perk", "Bloomingdale's", "Ralph Lauren Corporation";
-family_name "Greene";
+family_name "Green";
 child "Emma Geller-Green";
+flatmate "Monica Geller", "Joey Tribbiani";
+friend "Joey Tribbiani", "Chandler Bing", "Monica Geller", "Phoebe Buffay";
 country_of_citizenship "United States of America".
 
-Phoebe name "Regina Phalange", "Phoebe";
+Phoebe name "Phoebe";
+full_name "Phoebe Buffay";
+nickname "Phoebs", "Regina Phalange";
 sex_or_gender "female";
 occupation "musician", "massage therapist";
 residence "Morton Street";
-given_name "Phoebe";
 sibling "Ursula Buffay", "Frank Buffay, Jr";
 spouse "Mike Hannigan";
 family_name "Buffay";
+friend "Joey Tribbiani", "Ross Geller", "Rachel Green", "Monica Geller", "Chandler Bing";
 country_of_citizenship "United States of America".
 
-Monica married_name "Monica Elizabeth Geller-Bing";
+Monica name "Monica";
+full_name "Monica Geller", ""Monica E Geller Bing", "Monica E Geller", "Monica Bing";
+married_name "Monica Elizabeth Geller-Bing";
 birth_name "Monica Elizabeth Geller";
-name "Monica E Geller Bing", "Monica E Geller", "Monica Bing";
 religion "Judaism";
 unmarried_partner "Kip", "Richard Burke";
 sibling "Ross Geller";
@@ -176,44 +224,63 @@ family_name "Geller";
 mother "Judy Geller";
 occupation "cook";
 father "Jack Geller";
+flatmate "Rachel Green";
+friend "Joey Tribbiani", "Phoebe Buffay", "Rachel Green";
 country_of_citizenship "United States of America".
 
-Chandler birth_name "Chandler Muriel Bing";
-name "Chandler Muriel Bing", "Chandler M Bing";
+Chandler name "Chandler";
+full_name "Chandler Bing", ""Chandler Muriel Bing", "Chandler M Bing";
 given_name "Muriel", "Chandler";
 spouse "Monica Geller";
 sex_or_gender "male";
 father "Charles Bing";
 mother "Nora Tyler Bing";
 occupation "analyst";
+employer "Jack Barner";
 unmarried_partner "Janice Litman Goralnik";
 family_name "Bing";
+flatmate "Joey Tribbiani", "Eddie";
+friend "Rachel Green", "Joey Tribbiani", "Ross Geller", "Phoebe Buffay";
 country_of_citizenship "United States of America".
 
-Joey birth_name "Joseph Francis Tribbiani Junior";
-nickname "Joey";
+Joey name "Joey";
+full_name "Joey Tribbiani";
+birth_name "Joseph Francis Tribbiani Junior";
+nickname "Joe";
 occupation "actor", "data entry clerk", "waitperson", "model", "television actor",
 "tour guide";
+colleague "Gunther", "Rachel Green";
+agent "Estelle Leonard";
 sex_or_gender "male";
 given_name "Joseph", "Francis";
 unmarried_partner "Ursula Buffay";
+flatmate "Chandler Bing", "Rachel Green";
+friend "Rachel Green", "Chandler Bing", "Ross Geller", "Phoebe Buffay", "Monica Geller";
 country_of_citizenship "United States of America".
 
-Ross religion "Judaism";
-spouse "Carol Willick", "Rachel Greene", "Emily Waltham";
+Ross name "Ross";
+full_name "Ross Geller"
+religion "Judaism";
+spouse "Carol Willick", "Rachel Green", "Emily Waltham";
 sibling "Monica Geller";
 sex_or_gender "male";
 unmarried_partner "Jill Green", "Elizabeth Stevens", "Janice Litman Goralnik";
 child "Ben Geller", "Emma Geller Green";
 family_name "Geller";
-given_name "Ross";
 mother "Judy Geller";
 occupation "paleontologist";
 father "Jack Geller";
+friend "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay";
 country_of_citizenship "United States of America".
 
-Carol spouse "Ross Geller", "Susan Bunch";
+Carol name "Carol";
+full_name "Carol Willick";
+spouse "Ross Geller", "Susan Bunch";
 sex_or_gender "female";
 child "Ben Geller";
-family_name "Willick";
-given_name "Carol".
+family_name "Willick".
+
+Carol name "Carol";
+full_name "Carol Hay";
+colleague "Susan Bunch";
+sex_or_gender "female".
