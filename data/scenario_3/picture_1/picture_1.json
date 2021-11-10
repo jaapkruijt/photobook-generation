@@ -1,0 +1,111 @@
+{
+  "ruler": {
+    "start": 1,
+    "end": 1,
+    "container_id": "picture_1",
+    "@type": "TemporalRuler",
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "@type": "Scenario",
+  "id": "picture_1",
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "context": {
+    "persons": [
+      {
+        "name": [
+          "Gunther"
+        ],
+        "occupation": [
+          "manager"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "work_location": [
+          "Central Perk"
+        ],
+        "colleague": [
+          "Rachel Green",
+          "Joey Tribbiani"
+        ],
+        "employer": [
+          "Central Perk"
+        ]
+      }
+    ],
+    "objects": [],
+    "speaker": {
+      "name": [
+        "Phoebe"
+      ],
+      "full_name": [
+        "Phoebe Buffay"
+      ],
+      "nickname": [
+        "Phoebs",
+        "Regina Phalange"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "occupation": [
+        "massage therapist",
+        "musician"
+      ],
+      "residence": [
+        "Morton Street"
+      ],
+      "sibling": [
+        "Ursula Buffay",
+        "Frank Buffay, Jr"
+      ],
+      "spouse": [
+        "Mike Hannigan"
+      ],
+      "family_name": [
+        "Buffay"
+      ],
+      "friend": [
+        "Monica Geller",
+        "Rachel Green",
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Ross Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "agent": "robot_agent",
+    "@type": "PhotobookContext",
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "_py_type": "create_context-PhotobookContext"
+  }
+}

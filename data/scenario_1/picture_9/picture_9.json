@@ -4,6 +4,14 @@
     "text": "./text.json"
   },
   "context": {
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
     "persons": [
       {
         "name": [
@@ -18,16 +26,52 @@
         "sex_or_gender": [
           "female"
         ]
+      },
+      {
+        "name": [
+          "Phoebe"
+        ],
+        "full_name": [
+          "Phoebe Buffay"
+        ],
+        "nickname": [
+          "Phoebs",
+          "Regina Phalange"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "occupation": [
+          "massage therapist",
+          "musician"
+        ],
+        "residence": [
+          "Morton Street"
+        ],
+        "sibling": [
+          "Frank Buffay, Jr",
+          "Ursula Buffay"
+        ],
+        "spouse": [
+          "Mike Hannigan"
+        ],
+        "family_name": [
+          "Buffay"
+        ],
+        "friend": [
+          "Monica Geller",
+          "Ross Geller",
+          "Joey Tribbiani",
+          "Rachel Green",
+          "Chandler Bing"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
       }
     ],
-    "@context": {
-      "PhotobookContext": "https://emissor.org#PhotobookContext",
-      "id": "@id",
-      "agent": "https://emissor.org#agent",
-      "objects": "https://emissor.org#objects",
-      "persons": "https://emissor.org#persons",
-      "speaker": "https://emissor.org#speaker"
-    },
+    "@type": "PhotobookContext",
+    "agent": "robot_agent",
     "speaker": {
       "name": [
         "Rachel"
@@ -39,8 +83,8 @@
         "Rach"
       ],
       "occupation": [
-        "waiter",
-        "executive"
+        "executive",
+        "waiter"
       ],
       "mother": [
         "Sandra Green"
@@ -49,8 +93,8 @@
         "Leonard Green"
       ],
       "unmarried_partner": [
-        "Ross Geller",
-        "Paul Stevens"
+        "Paul Stevens",
+        "Ross Geller"
       ],
       "spouse": [
         "Ross Geller"
@@ -66,13 +110,13 @@
         "Central Perk"
       ],
       "colleague": [
+        "Gunther",
         "Nora Johnson",
-        "Joey Tribbiani",
-        "Gunther"
+        "Joey Tribbiani"
       ],
       "employer": [
-        "Bloomingdale's",
         "Ralph Lauren Corporation",
+        "Bloomingdale's",
         "Central Perk"
       ],
       "family_name": [
@@ -86,21 +130,30 @@
         "Joey Tribbiani"
       ],
       "friend": [
+        "Phoebe Buffay",
         "Monica Geller",
         "Joey Tribbiani",
-        "Phoebe Buffay",
         "Chandler Bing"
       ],
       "country_of_citizenship": [
         "United States of America"
       ]
     },
-    "agent": "robot_agent",
     "objects": [],
-    "@type": "PhotobookContext",
     "_py_type": "create_context-PhotobookContext"
   },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_9",
+  "@type": "Scenario",
   "ruler": {
+    "container_id": "picture_9",
+    "start": 9,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -111,19 +164,8 @@
         "@type": "@id"
       }
     },
-    "container_id": "picture_9",
-    "start": 9,
     "@type": "TemporalRuler",
     "end": 9,
     "_py_type": "emissor.representation.container-TemporalRuler"
-  },
-  "@context": {
-    "Scenario": "https://emissor.org#Scenario",
-    "id": "@id",
-    "context": "https://emissor.org#context",
-    "signals": "https://emissor.org#signals",
-    "ruler": "https://emissor.org#ruler"
-  },
-  "id": "picture_9",
-  "@type": "Scenario"
+  }
 }

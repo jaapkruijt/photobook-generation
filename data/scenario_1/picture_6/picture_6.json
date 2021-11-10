@@ -4,28 +4,6 @@
     "text": "./text.json"
   },
   "context": {
-    "persons": [
-      {
-        "name": [
-          "Elizabeth"
-        ],
-        "full_name": [
-          "Elizabeth Stevens"
-        ],
-        "unmarried_partner": [
-          "Ross Geller"
-        ],
-        "sex_or_gender": [
-          "female"
-        ],
-        "family_name": [
-          "Stevens"
-        ],
-        "father": [
-          "Paul Stevens"
-        ]
-      }
-    ],
     "@context": {
       "PhotobookContext": "https://emissor.org#PhotobookContext",
       "id": "@id",
@@ -34,6 +12,34 @@
       "persons": "https://emissor.org#persons",
       "speaker": "https://emissor.org#speaker"
     },
+    "persons": [
+      {
+        "name": [
+          "Judy"
+        ],
+        "full_name": [
+          "Judy Geller"
+        ],
+        "religion": [
+          "Judaism"
+        ],
+        "child": [
+          "Monica Geller",
+          "Ross Geller"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "family_name": [
+          "Geller"
+        ],
+        "spouse": [
+          "Jack Geller"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
+    "agent": "robot_agent",
     "speaker": {
       "name": [
         "Rachel"
@@ -45,8 +51,8 @@
         "Rach"
       ],
       "occupation": [
-        "waiter",
-        "executive"
+        "executive",
+        "waiter"
       ],
       "mother": [
         "Sandra Green"
@@ -55,8 +61,8 @@
         "Leonard Green"
       ],
       "unmarried_partner": [
-        "Ross Geller",
-        "Paul Stevens"
+        "Paul Stevens",
+        "Ross Geller"
       ],
       "spouse": [
         "Ross Geller"
@@ -72,13 +78,13 @@
         "Central Perk"
       ],
       "colleague": [
+        "Gunther",
         "Nora Johnson",
-        "Joey Tribbiani",
-        "Gunther"
+        "Joey Tribbiani"
       ],
       "employer": [
-        "Bloomingdale's",
         "Ralph Lauren Corporation",
+        "Bloomingdale's",
         "Central Perk"
       ],
       "family_name": [
@@ -92,21 +98,30 @@
         "Joey Tribbiani"
       ],
       "friend": [
+        "Phoebe Buffay",
         "Monica Geller",
         "Joey Tribbiani",
-        "Phoebe Buffay",
         "Chandler Bing"
       ],
       "country_of_citizenship": [
         "United States of America"
       ]
     },
-    "agent": "robot_agent",
     "objects": [],
-    "@type": "PhotobookContext",
     "_py_type": "create_context-PhotobookContext"
   },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_6",
+  "@type": "Scenario",
   "ruler": {
+    "container_id": "picture_6",
+    "start": 6,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -117,19 +132,8 @@
         "@type": "@id"
       }
     },
-    "container_id": "picture_6",
-    "start": 6,
     "@type": "TemporalRuler",
     "end": 6,
     "_py_type": "emissor.representation.container-TemporalRuler"
-  },
-  "@context": {
-    "Scenario": "https://emissor.org#Scenario",
-    "id": "@id",
-    "context": "https://emissor.org#context",
-    "signals": "https://emissor.org#signals",
-    "ruler": "https://emissor.org#ruler"
-  },
-  "id": "picture_6",
-  "@type": "Scenario"
+  }
 }

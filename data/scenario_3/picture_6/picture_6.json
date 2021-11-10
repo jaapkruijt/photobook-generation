@@ -1,0 +1,158 @@
+{
+  "ruler": {
+    "start": 6,
+    "end": 6,
+    "container_id": "picture_6",
+    "@type": "TemporalRuler",
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "@type": "Scenario",
+  "id": "picture_6",
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "context": {
+    "persons": [
+      {
+        "name": [
+          "Joey"
+        ],
+        "full_name": [
+          "Joey Tribbiani"
+        ],
+        "birth_name": [
+          "Joseph Francis Tribbiani Junior"
+        ],
+        "nickname": [
+          "Joe"
+        ],
+        "occupation": [
+          "waitperson",
+          "actor",
+          "television actor",
+          "tour guide",
+          "model",
+          "data entry clerk"
+        ],
+        "colleague": [
+          "Rachel Green",
+          "Gunther"
+        ],
+        "agent": [
+          "Estelle Leonard"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "given_name": [
+          "Joseph",
+          "Francis"
+        ],
+        "unmarried_partner": [
+          "Ursula Buffay"
+        ],
+        "flatmate": [
+          "Rachel Green",
+          "Chandler Bing"
+        ],
+        "friend": [
+          "Monica Geller",
+          "Rachel Green",
+          "Chandler Bing",
+          "Phoebe Buffay",
+          "Ross Geller"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      },
+      {
+        "name": [
+          "Janice"
+        ],
+        "full_name": [
+          "Janice Litman Goralnik"
+        ],
+        "unmarried_partner": [
+          "Chandler Bing",
+          "Ross Geller"
+        ],
+        "sex_or_gender": [
+          "female"
+        ]
+      }
+    ],
+    "objects": [],
+    "speaker": {
+      "name": [
+        "Phoebe"
+      ],
+      "full_name": [
+        "Phoebe Buffay"
+      ],
+      "nickname": [
+        "Phoebs",
+        "Regina Phalange"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "occupation": [
+        "massage therapist",
+        "musician"
+      ],
+      "residence": [
+        "Morton Street"
+      ],
+      "sibling": [
+        "Ursula Buffay",
+        "Frank Buffay, Jr"
+      ],
+      "spouse": [
+        "Mike Hannigan"
+      ],
+      "family_name": [
+        "Buffay"
+      ],
+      "friend": [
+        "Monica Geller",
+        "Rachel Green",
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Ross Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "agent": "robot_agent",
+    "@type": "PhotobookContext",
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "_py_type": "create_context-PhotobookContext"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "context": {
+    "speaker": {
+      "name": [
+        "Rachel"
+      ],
+      "full_name": [
+        "Rachel Green"
+      ],
+      "nickname": [
+        "Rach"
+      ],
+      "occupation": [
+        "waiter",
+        "executive"
+      ],
+      "mother": [
+        "Sandra Green"
+      ],
+      "father": [
+        "Leonard Green"
+      ],
+      "unmarried_partner": [
+        "Paul Stevens",
+        "Ross Geller"
+      ],
+      "spouse": [
+        "Ross Geller"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "sibling": [
+        "Jill Green",
+        "Amy Green"
+      ],
+      "work_location": [
+        "Central Perk"
+      ],
+      "colleague": [
+        "Nora Johnson",
+        "Joey Tribbiani",
+        "Gunther"
+      ],
+      "employer": [
+        "Central Perk",
+        "Ralph Lauren Corporation",
+        "Bloomingdale's"
+      ],
+      "family_name": [
+        "Green"
+      ],
+      "child": [
+        "Emma Geller-Green"
+      ],
+      "flatmate": [
+        "Monica Geller",
+        "Joey Tribbiani"
+      ],
+      "friend": [
+        "Phoebe Buffay",
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Monica Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "objects": [],
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "agent": "robot_agent",
+    "persons": [
+      {
+        "name": [
+          "Ursula"
+        ],
+        "full_name": [
+          "Ursula Pamela Buffay"
+        ],
+        "father": [
+          "Frank Buffay, Sr"
+        ],
+        "occupation": [
+          "waiter",
+          "pornographic actor"
+        ],
+        "unmarried_partner": [
+          "Joey Tribbiani"
+        ],
+        "sibling": [
+          "Phoebe Buffay",
+          "Frank Buffay, Jr"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "given_name": [
+          "Ursula",
+          "Pamela"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      },
+      {
+        "name": [
+          "Monica"
+        ],
+        "full_name": [
+          "Monica Bing",
+          "Monica E Geller Bing",
+          "Monica E Geller",
+          "Monica Geller"
+        ],
+        "married_name": [
+          "Monica Elizabeth Geller-Bing"
+        ],
+        "birth_name": [
+          "Monica Elizabeth Geller"
+        ],
+        "religion": [
+          "Judaism"
+        ],
+        "unmarried_partner": [
+          "Richard Burke",
+          "Kip"
+        ],
+        "sibling": [
+          "Ross Geller"
+        ],
+        "spouse": [
+          "Chandler Bing"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "given_name": [
+          "Monica",
+          "Elizabeth"
+        ],
+        "family_name": [
+          "Geller"
+        ],
+        "mother": [
+          "Judy Geller"
+        ],
+        "occupation": [
+          "cook"
+        ],
+        "father": [
+          "Jack Geller"
+        ],
+        "flatmate": [
+          "Rachel Green"
+        ],
+        "friend": [
+          "Phoebe Buffay",
+          "Rachel Green",
+          "Joey Tribbiani"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
+    "_py_type": "create_context-PhotobookContext"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_4",
+  "ruler": {
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "start": 4,
+    "container_id": "picture_4",
+    "@type": "TemporalRuler",
+    "end": 4,
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "@type": "Scenario"
+}

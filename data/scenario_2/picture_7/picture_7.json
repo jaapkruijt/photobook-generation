@@ -1,0 +1,194 @@
+{
+  "context": {
+    "speaker": {
+      "name": [
+        "Rachel"
+      ],
+      "full_name": [
+        "Rachel Green"
+      ],
+      "nickname": [
+        "Rach"
+      ],
+      "occupation": [
+        "waiter",
+        "executive"
+      ],
+      "mother": [
+        "Sandra Green"
+      ],
+      "father": [
+        "Leonard Green"
+      ],
+      "unmarried_partner": [
+        "Paul Stevens",
+        "Ross Geller"
+      ],
+      "spouse": [
+        "Ross Geller"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "sibling": [
+        "Jill Green",
+        "Amy Green"
+      ],
+      "work_location": [
+        "Central Perk"
+      ],
+      "colleague": [
+        "Nora Johnson",
+        "Joey Tribbiani",
+        "Gunther"
+      ],
+      "employer": [
+        "Central Perk",
+        "Ralph Lauren Corporation",
+        "Bloomingdale's"
+      ],
+      "family_name": [
+        "Green"
+      ],
+      "child": [
+        "Emma Geller-Green"
+      ],
+      "flatmate": [
+        "Monica Geller",
+        "Joey Tribbiani"
+      ],
+      "friend": [
+        "Phoebe Buffay",
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Monica Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "objects": [],
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "agent": "robot_agent",
+    "persons": [
+      {
+        "name": [
+          "Charles"
+        ],
+        "full_name": [
+          "Charles Bing"
+        ],
+        "pseudonym": [
+          "Helena Handbasket"
+        ],
+        "child": [
+          "Chandler Bing"
+        ],
+        "spouse": [
+          "Nora Tyler Bing"
+        ],
+        "occupation": [
+          "vedette"
+        ],
+        "family_name": [
+          "Bing"
+        ],
+        "sex_or_gender": [
+          "transgender female"
+        ]
+      },
+      {
+        "name": [
+          "Joey"
+        ],
+        "full_name": [
+          "Joey Tribbiani"
+        ],
+        "birth_name": [
+          "Joseph Francis Tribbiani Junior"
+        ],
+        "nickname": [
+          "Joe"
+        ],
+        "occupation": [
+          "actor",
+          "tour guide",
+          "model",
+          "waitperson",
+          "data entry clerk",
+          "television actor"
+        ],
+        "colleague": [
+          "Gunther",
+          "Rachel Green"
+        ],
+        "agent": [
+          "Estelle Leonard"
+        ],
+        "sex_or_gender": [
+          "male"
+        ],
+        "given_name": [
+          "Joseph",
+          "Francis"
+        ],
+        "unmarried_partner": [
+          "Ursula Buffay"
+        ],
+        "flatmate": [
+          "Chandler Bing",
+          "Rachel Green"
+        ],
+        "friend": [
+          "Rachel Green",
+          "Phoebe Buffay",
+          "Chandler Bing",
+          "Ross Geller",
+          "Monica Geller"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
+    "_py_type": "create_context-PhotobookContext"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_7",
+  "ruler": {
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "start": 7,
+    "container_id": "picture_7",
+    "@type": "TemporalRuler",
+    "end": 7,
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "@type": "Scenario"
+}

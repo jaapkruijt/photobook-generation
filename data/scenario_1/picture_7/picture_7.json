@@ -4,51 +4,6 @@
     "text": "./text.json"
   },
   "context": {
-    "persons": [
-      {
-        "name": [
-          "occupation ",
-          "Gunther",
-          "manager"
-        ],
-        "sex_or_gender": [
-          "male"
-        ],
-        "work_location": [
-          "Central Perk"
-        ],
-        "colleague": [
-          "Joey Tribbiani",
-          "Rachel Green"
-        ],
-        "employer": [
-          "Central Perk"
-        ]
-      },
-      {
-        "name": [
-          "Susan"
-        ],
-        "full_name": [
-          "Susan Bunch"
-        ],
-        "sexual_orientation": [
-          "homosexuality"
-        ],
-        "spouse": [
-          "Carol Willick"
-        ],
-        "colleague": [
-          "Carol Hay"
-        ],
-        "sex_or_gender": [
-          "female"
-        ],
-        "family_name": [
-          "Bunch"
-        ]
-      }
-    ],
     "@context": {
       "PhotobookContext": "https://emissor.org#PhotobookContext",
       "id": "@id",
@@ -57,6 +12,37 @@
       "persons": "https://emissor.org#persons",
       "speaker": "https://emissor.org#speaker"
     },
+    "persons": [
+      {
+        "name": [
+          "Jill"
+        ],
+        "full_name": [
+          "Jill Green"
+        ],
+        "mother": [
+          "Sandra Green"
+        ],
+        "father": [
+          "Leonard Green"
+        ],
+        "unmarried_partner": [
+          "Ross Geller"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "sibling": [
+          "Amy Green",
+          "Rachel Green"
+        ],
+        "family_name": [
+          "Green"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
+    "agent": "robot_agent",
     "speaker": {
       "name": [
         "Rachel"
@@ -68,8 +54,8 @@
         "Rach"
       ],
       "occupation": [
-        "waiter",
-        "executive"
+        "executive",
+        "waiter"
       ],
       "mother": [
         "Sandra Green"
@@ -78,8 +64,8 @@
         "Leonard Green"
       ],
       "unmarried_partner": [
-        "Ross Geller",
-        "Paul Stevens"
+        "Paul Stevens",
+        "Ross Geller"
       ],
       "spouse": [
         "Ross Geller"
@@ -95,13 +81,13 @@
         "Central Perk"
       ],
       "colleague": [
+        "Gunther",
         "Nora Johnson",
-        "Joey Tribbiani",
-        "Gunther"
+        "Joey Tribbiani"
       ],
       "employer": [
-        "Bloomingdale's",
         "Ralph Lauren Corporation",
+        "Bloomingdale's",
         "Central Perk"
       ],
       "family_name": [
@@ -115,21 +101,30 @@
         "Joey Tribbiani"
       ],
       "friend": [
+        "Phoebe Buffay",
         "Monica Geller",
         "Joey Tribbiani",
-        "Phoebe Buffay",
         "Chandler Bing"
       ],
       "country_of_citizenship": [
         "United States of America"
       ]
     },
-    "agent": "robot_agent",
     "objects": [],
-    "@type": "PhotobookContext",
     "_py_type": "create_context-PhotobookContext"
   },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_7",
+  "@type": "Scenario",
   "ruler": {
+    "container_id": "picture_7",
+    "start": 7,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -140,19 +135,8 @@
         "@type": "@id"
       }
     },
-    "container_id": "picture_7",
-    "start": 7,
     "@type": "TemporalRuler",
     "end": 7,
     "_py_type": "emissor.representation.container-TemporalRuler"
-  },
-  "@context": {
-    "Scenario": "https://emissor.org#Scenario",
-    "id": "@id",
-    "context": "https://emissor.org#context",
-    "signals": "https://emissor.org#signals",
-    "ruler": "https://emissor.org#ruler"
-  },
-  "id": "picture_7",
-  "@type": "Scenario"
+  }
 }

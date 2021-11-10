@@ -43,7 +43,7 @@ occupation "manager";
 employee "Chandler Bing";
 sex_or_gender "male".
 
-Gunther name "Gunther"
+Gunther name "Gunther";
 occupation "manager";
 sex_or_gender "male";
 work_location "Central Perk";
@@ -78,7 +78,7 @@ spouse "Estelle Leonard";
 sex_or_gender "male".
 
 Emily name "Emily";
-full_name "Emily Waltham"
+full_name "Emily Waltham";
 spouse "Ross Geller";
 sibling "Emma Waltham";
 sex_or_gender "female";
@@ -90,7 +90,7 @@ unmarried_partner "Ross Geller", "Chandler Bing";
 sex_or_gender "female".
 
 Frank name "Frank";
-full_name "Frank Buffay, Jr"
+full_name "Frank Buffay, Jr";
 father "Frank Buffay, Sr";
 sibling "Phoebe Buffay", "Ursula Buffay";
 sex_or_gender "male".
@@ -101,7 +101,7 @@ spouse "Eddie";
 sex_or_gender "male".
 
 Richard name "Richard";
-full_name "Richard Burke"
+full_name "Richard Burke";
 unmarried_partner "Monica Geller";
 sex_or_gender "male";
 family_name "Burke";
@@ -171,7 +171,7 @@ flatmate "Chandler Bing";
 spouse "Frank Liotta".
 
 Charles name "Charles";
-full_name "Charles Bing"
+full_name "Charles Bing";
 pseudonym "Helena Handbasket";
 child "Chandler Bing";
 spouse "Nora Tyler Bing";
@@ -259,7 +259,7 @@ friend "Rachel Green", "Chandler Bing", "Ross Geller", "Phoebe Buffay", "Monica 
 country_of_citizenship "United States of America".
 
 Ross name "Ross";
-full_name "Ross Geller"
+full_name "Ross Geller";
 religion "Judaism";
 spouse "Carol Willick", "Rachel Green", "Emily Waltham";
 sibling "Monica Geller";

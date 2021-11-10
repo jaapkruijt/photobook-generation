@@ -4,27 +4,6 @@
     "text": "./text.json"
   },
   "context": {
-    "persons": [
-      {
-        "name": [
-          "Richard"
-        ],
-        "full_name": [
-          "unmarried_partner ",
-          "Monica Geller",
-          "Richard Burke"
-        ],
-        "sex_or_gender": [
-          "male"
-        ],
-        "family_name": [
-          "Burke"
-        ],
-        "occupation": [
-          "ophthalmologist"
-        ]
-      }
-    ],
     "@context": {
       "PhotobookContext": "https://emissor.org#PhotobookContext",
       "id": "@id",
@@ -33,6 +12,57 @@
       "persons": "https://emissor.org#persons",
       "speaker": "https://emissor.org#speaker"
     },
+    "persons": [
+      {
+        "name": [
+          "Judy"
+        ],
+        "full_name": [
+          "Judy Geller"
+        ],
+        "religion": [
+          "Judaism"
+        ],
+        "child": [
+          "Monica Geller",
+          "Ross Geller"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "family_name": [
+          "Geller"
+        ],
+        "spouse": [
+          "Jack Geller"
+        ]
+      },
+      {
+        "name": [
+          "Susan"
+        ],
+        "full_name": [
+          "Susan Bunch"
+        ],
+        "sexual_orientation": [
+          "homosexuality"
+        ],
+        "spouse": [
+          "Carol Willick"
+        ],
+        "colleague": [
+          "Carol Hay"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "family_name": [
+          "Bunch"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
+    "agent": "robot_agent",
     "speaker": {
       "name": [
         "Rachel"
@@ -44,8 +74,8 @@
         "Rach"
       ],
       "occupation": [
-        "waiter",
-        "executive"
+        "executive",
+        "waiter"
       ],
       "mother": [
         "Sandra Green"
@@ -54,8 +84,8 @@
         "Leonard Green"
       ],
       "unmarried_partner": [
-        "Ross Geller",
-        "Paul Stevens"
+        "Paul Stevens",
+        "Ross Geller"
       ],
       "spouse": [
         "Ross Geller"
@@ -71,13 +101,13 @@
         "Central Perk"
       ],
       "colleague": [
+        "Gunther",
         "Nora Johnson",
-        "Joey Tribbiani",
-        "Gunther"
+        "Joey Tribbiani"
       ],
       "employer": [
-        "Bloomingdale's",
         "Ralph Lauren Corporation",
+        "Bloomingdale's",
         "Central Perk"
       ],
       "family_name": [
@@ -91,21 +121,30 @@
         "Joey Tribbiani"
       ],
       "friend": [
+        "Phoebe Buffay",
         "Monica Geller",
         "Joey Tribbiani",
-        "Phoebe Buffay",
         "Chandler Bing"
       ],
       "country_of_citizenship": [
         "United States of America"
       ]
     },
-    "agent": "robot_agent",
     "objects": [],
-    "@type": "PhotobookContext",
     "_py_type": "create_context-PhotobookContext"
   },
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "id": "picture_2",
+  "@type": "Scenario",
   "ruler": {
+    "container_id": "picture_2",
+    "start": 2,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -116,19 +155,8 @@
         "@type": "@id"
       }
     },
-    "container_id": "picture_2",
-    "start": 2,
     "@type": "TemporalRuler",
     "end": 2,
     "_py_type": "emissor.representation.container-TemporalRuler"
-  },
-  "@context": {
-    "Scenario": "https://emissor.org#Scenario",
-    "id": "@id",
-    "context": "https://emissor.org#context",
-    "signals": "https://emissor.org#signals",
-    "ruler": "https://emissor.org#ruler"
-  },
-  "id": "picture_2",
-  "@type": "Scenario"
+  }
 }

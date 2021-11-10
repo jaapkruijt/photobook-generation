@@ -1,0 +1,136 @@
+{
+  "ruler": {
+    "start": 7,
+    "end": 7,
+    "container_id": "picture_7",
+    "@type": "TemporalRuler",
+    "@context": {
+      "TemporalRuler": "https://emissor.org#TemporalRuler",
+      "id": "@id",
+      "start": "https://emissor.org#start",
+      "end": "https://emissor.org#end",
+      "container_id": {
+        "@id": "https://emissor.org#container_id",
+        "@type": "@id"
+      }
+    },
+    "_py_type": "emissor.representation.container-TemporalRuler"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
+  },
+  "@type": "Scenario",
+  "id": "picture_7",
+  "@context": {
+    "Scenario": "https://emissor.org#Scenario",
+    "id": "@id",
+    "context": "https://emissor.org#context",
+    "signals": "https://emissor.org#signals",
+    "ruler": "https://emissor.org#ruler"
+  },
+  "context": {
+    "persons": [
+      {
+        "name": [
+          "Frank"
+        ],
+        "full_name": [
+          "Frank Liotta"
+        ],
+        "spouse": [
+          "Eddie"
+        ],
+        "sex_or_gender": [
+          "male"
+        ]
+      },
+      {
+        "name": [
+          "Ursula"
+        ],
+        "full_name": [
+          "Ursula Pamela Buffay"
+        ],
+        "father": [
+          "Frank Buffay, Sr"
+        ],
+        "occupation": [
+          "waiter",
+          "pornographic actor"
+        ],
+        "unmarried_partner": [
+          "Joey Tribbiani"
+        ],
+        "sibling": [
+          "Phoebe Buffay",
+          "Frank Buffay, Jr"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "given_name": [
+          "Pamela",
+          "Ursula"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      }
+    ],
+    "objects": [],
+    "speaker": {
+      "name": [
+        "Phoebe"
+      ],
+      "full_name": [
+        "Phoebe Buffay"
+      ],
+      "nickname": [
+        "Phoebs",
+        "Regina Phalange"
+      ],
+      "sex_or_gender": [
+        "female"
+      ],
+      "occupation": [
+        "massage therapist",
+        "musician"
+      ],
+      "residence": [
+        "Morton Street"
+      ],
+      "sibling": [
+        "Ursula Buffay",
+        "Frank Buffay, Jr"
+      ],
+      "spouse": [
+        "Mike Hannigan"
+      ],
+      "family_name": [
+        "Buffay"
+      ],
+      "friend": [
+        "Monica Geller",
+        "Rachel Green",
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Ross Geller"
+      ],
+      "country_of_citizenship": [
+        "United States of America"
+      ]
+    },
+    "agent": "robot_agent",
+    "@type": "PhotobookContext",
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "_py_type": "create_context-PhotobookContext"
+  }
+}

@@ -1,69 +1,5 @@
 {
-  "signals": {
-    "image": "./image.json",
-    "text": "./text.json"
-  },
   "context": {
-    "@context": {
-      "PhotobookContext": "https://emissor.org#PhotobookContext",
-      "id": "@id",
-      "agent": "https://emissor.org#agent",
-      "objects": "https://emissor.org#objects",
-      "persons": "https://emissor.org#persons",
-      "speaker": "https://emissor.org#speaker"
-    },
-    "persons": [
-      {
-        "name": [
-          "Judy"
-        ],
-        "full_name": [
-          "Judy Geller"
-        ],
-        "religion": [
-          "Judaism"
-        ],
-        "child": [
-          "Monica Geller",
-          "Ross Geller"
-        ],
-        "sex_or_gender": [
-          "female"
-        ],
-        "family_name": [
-          "Geller"
-        ],
-        "spouse": [
-          "Jack Geller"
-        ]
-      },
-      {
-        "name": [
-          "Amy"
-        ],
-        "full_name": [
-          "Amy Green"
-        ],
-        "mother": [
-          "Sandra Green"
-        ],
-        "father": [
-          "Leonard Green"
-        ],
-        "sex_or_gender": [
-          "female"
-        ],
-        "sibling": [
-          "Jill Green",
-          "Rachel Green"
-        ],
-        "family_name": [
-          "Green"
-        ]
-      }
-    ],
-    "@type": "PhotobookContext",
-    "agent": "robot_agent",
     "speaker": {
       "name": [
         "Rachel"
@@ -75,8 +11,8 @@
         "Rach"
       ],
       "occupation": [
-        "executive",
-        "waiter"
+        "waiter",
+        "executive"
       ],
       "mother": [
         "Sandra Green"
@@ -95,21 +31,21 @@
         "female"
       ],
       "sibling": [
-        "Amy Green",
-        "Jill Green"
+        "Jill Green",
+        "Amy Green"
       ],
       "work_location": [
         "Central Perk"
       ],
       "colleague": [
-        "Gunther",
         "Nora Johnson",
-        "Joey Tribbiani"
+        "Joey Tribbiani",
+        "Gunther"
       ],
       "employer": [
+        "Central Perk",
         "Ralph Lauren Corporation",
-        "Bloomingdale's",
-        "Central Perk"
+        "Bloomingdale's"
       ],
       "family_name": [
         "Green"
@@ -123,16 +59,74 @@
       ],
       "friend": [
         "Phoebe Buffay",
-        "Monica Geller",
         "Joey Tribbiani",
-        "Chandler Bing"
+        "Chandler Bing",
+        "Monica Geller"
       ],
       "country_of_citizenship": [
         "United States of America"
       ]
     },
     "objects": [],
+    "@context": {
+      "PhotobookContext": "https://emissor.org#PhotobookContext",
+      "id": "@id",
+      "agent": "https://emissor.org#agent",
+      "objects": "https://emissor.org#objects",
+      "persons": "https://emissor.org#persons",
+      "speaker": "https://emissor.org#speaker"
+    },
+    "agent": "robot_agent",
+    "persons": [
+      {
+        "name": [
+          "Phoebe"
+        ],
+        "full_name": [
+          "Phoebe Buffay"
+        ],
+        "nickname": [
+          "Phoebs",
+          "Regina Phalange"
+        ],
+        "sex_or_gender": [
+          "female"
+        ],
+        "occupation": [
+          "musician",
+          "massage therapist"
+        ],
+        "residence": [
+          "Morton Street"
+        ],
+        "sibling": [
+          "Frank Buffay, Jr",
+          "Ursula Buffay"
+        ],
+        "spouse": [
+          "Mike Hannigan"
+        ],
+        "family_name": [
+          "Buffay"
+        ],
+        "friend": [
+          "Rachel Green",
+          "Joey Tribbiani",
+          "Chandler Bing",
+          "Ross Geller",
+          "Monica Geller"
+        ],
+        "country_of_citizenship": [
+          "United States of America"
+        ]
+      }
+    ],
+    "@type": "PhotobookContext",
     "_py_type": "create_context-PhotobookContext"
+  },
+  "signals": {
+    "image": "./image.json",
+    "text": "./text.json"
   },
   "@context": {
     "Scenario": "https://emissor.org#Scenario",
@@ -141,11 +135,8 @@
     "signals": "https://emissor.org#signals",
     "ruler": "https://emissor.org#ruler"
   },
-  "id": "picture_5",
-  "@type": "Scenario",
+  "id": "picture_1",
   "ruler": {
-    "container_id": "picture_5",
-    "start": 5,
     "@context": {
       "TemporalRuler": "https://emissor.org#TemporalRuler",
       "id": "@id",
@@ -156,8 +147,11 @@
         "@type": "@id"
       }
     },
+    "start": 1,
+    "container_id": "picture_1",
     "@type": "TemporalRuler",
-    "end": 5,
+    "end": 1,
     "_py_type": "emissor.representation.container-TemporalRuler"
-  }
+  },
+  "@type": "Scenario"
 }

@@ -27,4 +27,4 @@ def create_sequence(entity_list, entity_dict, speakers, scenario_id, num_picture
 
 if __name__ == "__main__":
     entities, entlist = create_list_and_dicts()
-    create_sequence(entlist, entities, speaker_list, 'scenario_1')
+    create_sequence(entlist, entities, speaker_list, 'scenario_3')
